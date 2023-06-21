@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.show{ 
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.beige {
+  color: #d1c1a7;
+}
