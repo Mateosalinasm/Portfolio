@@ -1,12 +1,7 @@
 import { useState, useEffect } from 'react'
-import { Routes, Route, Link } from "react-router-dom";
-import Navbar from './components/Navbar'
-
 import './App.css'
-import Home from './pages/Home'
-import About from './pages/About'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
+
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 let hasLogged = false;
 
@@ -14,7 +9,7 @@ function App() {
    useEffect(() => {
      if (!hasLogged) {
        console.log(
-         "%cHi!%c\n\nWelcome to my developer portfolio!\nI'm excited you're here, and I can't wait to hear from you.\nI hope you like it! 🙌🏻",
+         "%c\nHey!%c\n\nWelcome to my developer portfolio.\n\nI'm delighted that you've taken the time to visit and I'm eagerly looking forward to hearing from you.\n\nThank you for stopping by, and I hope you enjoy exploring my work! 🙌🏻\n\nMateo\n",
          "color: #f59e0b; font-size: 20px",
          "color: initial; font-size: 14px"
        );
@@ -24,13 +19,7 @@ function App() {
   return (
     <>
       <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <AnimatedRoutes />
       </div>
     </>
   )

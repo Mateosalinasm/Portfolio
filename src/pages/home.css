@@ -10,3 +10,13 @@ html {
 .beige {
   color: #d1c1a7;
 }
+
+.creativity-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.zoom-target {
+  position: relative;
+}

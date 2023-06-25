@@ -67,7 +67,7 @@ export default {
       },
       colors: {
         'beige': '#F4F1ED',
-        'gunmetal': '#1E2D2F',
+        'matte-black': '#1C1C1C',
         'mute-beige': '#d1c1a7',
       },
       spacing: {

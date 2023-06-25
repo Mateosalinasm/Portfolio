@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure,} from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion } from 'framer-motion'
 import { NavLink } from "react-router-dom";
 
@@ -11,9 +11,9 @@ const navigation = [
   { name: "Contact", to: "/contact", current: false },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function Navbar() {
   return (
@@ -21,21 +21,15 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <motion.div
-            initial={{
-              // x: "-10%",
-              opacity: 0,
-            }}
-            animate={{
-              // x: 0,
-              opacity: 1,
-            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ delay: 4.5, duration: 0.9 }}
-            className="mx-auto max-w-7xl px-2 sm:px-2 "
+            className="mx-auto px-2 sm:px-2 "
           >
             <div className="relative flex h-16 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 z-10 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-mute-beige hover:opacity-80 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mute-beige">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -44,12 +38,12 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center p-4 justify-center sm:items-stretch sm:justify-between">
+              <div className="flex flex-1 fixed items-center w-full p-10 sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <div className="">
-                    <h1 className="text-mute-beige font-extrabold text-xl tracking-wide">
+                    <NavLink to="/" className="text-mute-beige font-extrabold text-xl tracking-wide">
                       Mateo
-                    </h1>
+                    </NavLink>
                   </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
@@ -61,7 +55,7 @@ export default function Navbar() {
                         className={({ isActive }) =>
                           `inline-flex items-center ${
                             isActive
-                              ? "!text-mute-beige"
+                              ? "!text-amber-500"
                               : " text-mute-beige opacity-30"
                           } px-1 pt-1 text-lg font-medium hover:opacity-100  hover:duration-200 hover:ease-in-out`
                         }
@@ -76,22 +70,22 @@ export default function Navbar() {
           </motion.div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="absolute space-y-1 right-0 px-2 pb-3 pt-2 ">
               {navigation.map((item) => (
-                <Disclosure.Button
+                <NavLink
                   key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
+                  to={item.to}
+                  className={({ isActive }) =>
+                    `items-center ${
+                      isActive
+                        ? "!text-amber-500"
+                        : " text-mute-beige opacity-30 hover:opacity-100"
+                    } block rounded-md px-3 py-2 text-base font-medium`
+                  }
+                  
                 >
                   {item.name}
-                </Disclosure.Button>
+                </NavLink>
               ))}
             </div>
           </Disclosure.Panel>
@@ -100,3 +94,6 @@ export default function Navbar() {
     </Disclosure>
   );
 }
+
+
+  // aria-current={item.current ? "page" : undefined}

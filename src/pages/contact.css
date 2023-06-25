@@ -1,0 +1,39 @@
+.div1 {
+  height: 100vh;
+  background-color: pink;
+}
+
+.div2 {
+  height: 100vh;
+  background-color: salmon;
+}
+
+.square {
+  /* position: relative;
+  left: 50%; */
+  width: 150px;
+  height: 20vh;
+  background-color: yellow;
+}
+.square2 {
+  /* margin-top: 300px; Increase this value */
+  width: 150px;
+  height: 20vh;
+  background-color: green;
+}
+
+
+.purple {
+  background-color: purple;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.panel {
+  height: 100vh;
+  background-color: pink;
+}
