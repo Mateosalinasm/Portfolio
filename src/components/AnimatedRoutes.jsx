@@ -21,7 +21,7 @@ const AnimatedRoutes = () => {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <SocialLinks key={null} />
-    </AnimatePresence>
+ </AnimatePresence>
   );
 };
 

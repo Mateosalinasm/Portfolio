@@ -1,0 +1,28 @@
+h1 {
+  display: inline;
+}
+
+
+.colored-word {
+  color: #f59e0b;
+}
+
+@font-face {
+  font-family: "Avant-Light"; 
+  src: local("ITC Avant Garde Gothic Std Extra Light Condensed"),
+    url("./font/ITCAvantGardeStd-XLtCn.otf") format("otf");
+}
+
+.AvantLight {
+  font-family: Avant-Light;
+}
+
+@font-face {
+    font-family: 'KaushanScript-Regular';
+    src: local('KaushanScript-Regular'),
+        url('./fonts/KaushanScript-Regular.otf') format('ttf');
+}
+
+.Kaushan {
+  font-family: 'KaushanScript-Regular'
+}

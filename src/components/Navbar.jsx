@@ -26,7 +26,7 @@ export default function Navbar() {
             transition={{ delay: 4.5, duration: 0.9 }}
             className="mx-auto px-2 sm:px-2 "
           >
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-16 items-center justify-between ">
               <div className="absolute inset-y-0 z-10 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-mute-beige hover:opacity-80 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mute-beige">
@@ -41,7 +41,10 @@ export default function Navbar() {
               <div className="flex flex-1 fixed items-center w-full p-10 sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <div className="">
-                    <NavLink to="/" className="text-mute-beige font-extrabold text-xl tracking-wide">
+                    <NavLink
+                      to="/"
+                      className="text-mute-beige text-xl tracking-wide font-light"
+                    >
                       Mateo
                     </NavLink>
                   </div>
@@ -57,7 +60,7 @@ export default function Navbar() {
                             isActive
                               ? "!text-amber-500"
                               : " text-mute-beige opacity-30"
-                          } px-1 pt-1 text-lg font-medium hover:opacity-100  hover:duration-200 hover:ease-in-out`
+                          } px-1 pt-1 text-lg font-light hover:opacity-100  hover:duration-200 hover:ease-in-out`
                         }
                       >
                         {item.name}
@@ -82,7 +85,6 @@ export default function Navbar() {
                         : " text-mute-beige opacity-30 hover:opacity-100"
                     } block rounded-md px-3 py-2 text-base font-medium`
                   }
-                  
                 >
                   {item.name}
                 </NavLink>

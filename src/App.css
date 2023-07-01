@@ -59,3 +59,15 @@
   height: 135px;
   background-color: yellow;
 }
+
+@font-face {
+  font-family: "AvantLight";   /*Can be any text*/
+  src: local("ITC Avant Garde Gothic Std Extra Light Condensed"),
+    url("./font/ITCAvantGardeStd-XLtCn.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Aspekta-50';
+    src: local('Aspekta-50'),
+        url('./fonts/Aspekta-50.otf') format('otf');
+}
