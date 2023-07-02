@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const SocialLinks = (props) => {
   return (
-    <div className="icon-container flex justify-start w-screen fixed px-5 bottom-12">
+    <div className="icon-container flex justify-start w-screen fixed px-5 bottom-12 ">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
