@@ -15,7 +15,9 @@ export default {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       lineHeight: {
-        '11': '2.5rem',
+        '1': '.10rem',
+        '2': '.50rem',
+        '11': '2.7rem',
         '12': '3rem',
         '14': '3.5rem',
         '16': '4rem',

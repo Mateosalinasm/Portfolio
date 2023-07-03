@@ -4,7 +4,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import "./about.css";
 
-
 const About = () => {
   useEffect(() => {
     const text = document.querySelector(".text-to-animate");
@@ -54,16 +53,15 @@ const About = () => {
   }, []);
 
   return (
-    <div>
-      <div className="text-mute-beige tracking-tighter font-normal text-5xl ml-20 h-screen flex content-around flex-col px-24 justify-center items-center">
-        <div className="flex flex-col justify-start max-w-6xl">
+    <div className="text-mute-beige h-screen mx-24 mb-10 justify-center flex ml-48 max-sm:ml-24">
+      <div className="flex flex-col w-[72rem] justify-start max-w-6xl">
           <p
             id="about"
-            className="relative text-sm font-extralight tracking-[0.4em] mb-2"
+            className="relative text-sm font-extralight tracking-[0.4em] mb-2 max-sm:text-xxs"
           >
             ABOUT ME
           </p>
-          <div className="text-6xl max-w-6xl AvantLight leading-16 text-left mb-10 text-to-animate">
+          <div className="text-6xl max-w-6xl leading-16 text-left mb-10 text-to-animate max-sm:text-[1.2rem] max-sm:leading-10 max-sm:-mt-0">
             <h1>I'm a passionate </h1>
             <h1 className="text-amber-500">frontend developer</h1>
             <h1>
@@ -75,7 +73,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
