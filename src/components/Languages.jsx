@@ -31,7 +31,7 @@ const Languages = () => {
       <div className="max-w-6xl flex flex-col w-[72rem] justify-start ml-48  mx-24 max-sm:ml-24">
         <p
           id="about"
-          className="text-mute-beige relative text-sm font-extralight tracking-[0.3em] mb-10 max-sm:text-xxs max-sm:mb-1"
+          className="text-mute-beige relative text-sm font-extralight tracking-[0.3em] mb-6 max-sm:text-xxs max-sm:mb-1"
         >
           LANGUAGES
         </p>

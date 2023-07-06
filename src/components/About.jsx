@@ -57,7 +57,7 @@ const About = () => {
       <div className="flex flex-col w-[72rem] justify-start max-w-6xl">
           <p
             id="about"
-            className="relative text-sm font-extralight tracking-[0.4em] mb-2 max-sm:text-xxs"
+            className="relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs"
           >
             ABOUT ME
           </p>
