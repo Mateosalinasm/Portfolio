@@ -60,6 +60,7 @@ export default {
         xs: '2px',
       },
       width: {
+        '78': '19.3rem',
         '100': '28rem',
         '128': '32rem',
         '136': '40rem',

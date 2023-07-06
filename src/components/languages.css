@@ -1,0 +1,206 @@
+/* Spanish */
+.spanish {
+  display: inline-block;
+  text-decoration: none;
+  height: 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.spanish.text-completed::after,
+.spanish.text-completed::before {
+  content: "ESPAÑOL";
+  position: absolute;
+  width: 100%;
+  color: #d1c1a7;
+
+  transition: all 500ms;
+  top: 0;
+}
+
+.spanish.text-completed:hover::after {
+  top: -70px;
+}
+
+.spanish.text-completed::before {
+  content: "SPANISH";
+  color: #f59e0b;
+  top: 70px;
+}
+
+.spanish.text-completed:hover::before {
+  top: 0;
+}
+
+/* Portuguese */
+.portuguese {
+  display: inline-block;
+  text-decoration: none;
+  height: 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.portuguese.text-completed::after,
+.portuguese.text-completed::before {
+  content: "PORTUGUÊS";
+  position: absolute;
+  width: 100%;
+  color: #d1c1a7;
+
+  transition: all 500ms;
+  top: 0;
+}
+
+.portuguese.text-completed:hover::after {
+  top: -70px;
+}
+
+.portuguese.text-completed::before {
+  content: "PORTUGUESE";
+  color: #f59e0b;
+  top: 70px;
+}
+
+.portuguese.text-completed:hover::before {
+  top: 0;
+}
+
+/* Russian */
+.russian {
+  display: inline-block;
+  text-decoration: none;
+  height: 4.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.russian.text-completed::after,
+.russian.text-completed::before {
+  content: "РУССКИЙ";
+  position: absolute;
+  width: 100%;
+  color: #d1c1a7;
+
+  transition: all 500ms;
+  top: 0;
+}
+
+.russian.text-completed:hover::after {
+  top: -70px;
+}
+
+.russian.text-completed::before {
+  content: "RUSSIAN";
+  color: #f59e0b;
+  top: 70px;
+}
+
+.russian.text-completed:hover::before {
+  top: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .spanish {
+    display: inline-block;
+    text-decoration: none;
+    height: 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .spanish.text-completed::after,
+  .spanish.text-completed::before {
+    content: "ESPAÑOL";
+    position: absolute;
+    width: 100%;
+    color: #d1c1a7;
+
+    transition: all 500ms;
+    top: 0;
+  }
+
+  .spanish.text-completed:hover::after {
+    top: -50px;
+  }
+
+  .spanish.text-completed::before {
+    content: "SPANISH";
+    color: #f59e0b;
+    top: 50px;
+  }
+
+  .spanish.text-completed:hover::before {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .portuguese {
+    display: inline-block;
+    text-decoration: none;
+    height: 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .portuguese.text-completed::after,
+  .portuguese.text-completed::before {
+    content: "PORTUGUÊS";
+    position: absolute;
+    width: 100%;
+    color: #d1c1a7;
+
+    transition: all 500ms;
+    top: 0;
+  }
+
+  .portuguese.text-completed:hover::after {
+    top: -50px;
+  }
+
+  .portuguese.text-completed::before {
+    content: "PORTUGUESE";
+    color: #f59e0b;
+    top: 50px;
+  }
+
+  .portuguese.text-completed:hover::before {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .russian {
+    display: inline-block;
+    text-decoration: none;
+    height: 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .russian.text-completed::after,
+  .russian.text-completed::before {
+    content: "РУССКИЙ";
+    position: absolute;
+    width: 100%;
+    color: #d1c1a7;
+
+    transition: all 500ms;
+    top: 0;
+  }
+
+  .russian.text-completed:hover::after {
+    top: -50px;
+  }
+
+  .russian.text-completed::before {
+    content: "RUSSIAN";
+    color: #f59e0b;
+    top: 50px;
+  }
+
+  .russian.text-completed:hover::before {
+    top: 0;
+  }
+}

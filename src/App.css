@@ -74,3 +74,19 @@ html {
     src: local('Aspekta-50'),
         url('./fonts/Aspekta-50.otf') format('otf');
 }
+
+.spotlight {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: width 400ms, color 400ms;
+  pointer-events: none;
+}
+
+.spotlight.active {
+  width: 15vw;
+  height: 15vw;
+  color: #1C1C1C;
+}

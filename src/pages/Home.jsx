@@ -6,6 +6,7 @@ import "./home.css";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
+import Languages from "../components/Languages";
 
 const Home = () => {
 useEffect(() => {
@@ -56,6 +57,9 @@ useEffect(() => {
       </section>
       <section id="skills">
         <Skills />
+      </section>
+      <section id="languages">
+    <Languages />
       </section>
       <section id="projects"></section>
       <section id="contact">
