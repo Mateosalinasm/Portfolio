@@ -1,12 +1,6 @@
 import React from "react";
 import { delay, motion, useAnimation } from "framer-motion";
 import { Link } from "react-router-dom";
-// import {
-//   GitHubIcon,
-//   InstagramIcon,
-//   LinkedInIcon,
-//   TwitterIcon,
-// } from "../components/SocialIcons";
 
 const SocialLinks = (props) => {
   return (
@@ -18,7 +12,7 @@ const SocialLinks = (props) => {
         className="w-8"
       >
         <div className="py-1">
-          <Link to="https://github.com/Mateosalinasm">
+          <Link to="https://github.com/Mateosalinasm" target="_blank">
             <svg
               className="max-sm:h-7"
               viewBox="0 0 24 24"
@@ -35,7 +29,7 @@ const SocialLinks = (props) => {
           </Link>
         </div>
         <div className="py-1">
-          <Link to="https://www.linkedin.com/in/mateosalinasm/">
+          <Link to="https://www.linkedin.com/in/mateosalinasm/" target="_blank">
             <svg
               className="max-sm:h-7"
               viewBox="0 0 24 24"

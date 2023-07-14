@@ -24,3 +24,29 @@ html {
 /* #about {
   opacity: 0;
 } */
+
+.active-section {
+  color: #04e6ff;
+}
+
+.nav-style{
+	display: inline-block;
+	position:relative;
+  color: #F59E0B
+}
+
+nav a:hover, nav .active-section{
+	color: #F59E0B;
+  cursor: pointer;
+}
+nav a:hover span, nav .active-section span{
+	background-color: #F59E0B;
+}
+nav .active-section .rect{
+	width: 40px;
+  mix-blend-mode: difference;
+}
+
+nav a {
+  color:#d1c1a7;
+}

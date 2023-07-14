@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="flex justify-center mb-20">
+    <div className=" flex justify-center  mb-20">
       <div className="max-w-6xl flex flex-col w-[72rem] justify-start ml-48  mx-24 max-sm:ml-24">
         <p
           id="about"
@@ -10,7 +10,7 @@ const Skills = () => {
         >
           SKILLS
         </p>
-        <div className="font-extrabold text-5xl relative -left-2  selection:leading-16 text-left mb-10">
+        <div className="font-extrabold text-5xl relative -left-2 -z-10  selection:leading-16 text-left mb-10">
           <div className="flex  gap-8 max-sm:gap-2 max-sm:gap-y-6 flex-wrap ">
             {/* HTML */}
             <svg viewBox="0 0 128 128" className="h-20 max-sm:h-12 max-sm:ml-2">

@@ -11,10 +11,6 @@ const navigation = [
   { name: "Contact", to: "/contact", current: false },
 ];
 
-// function classNames(...classes) {
-//   return classes.filter(Boolean).join(" ");
-// }
-
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-transparent">
@@ -27,7 +23,7 @@ export default function Navbar() {
             className="mx-auto px-2 sm:px-2 "
           >
             <div className="relative flex h-16 items-center justify-between ">
-              <div className="absolute inset-y-0 z-10 right-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 z-50 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 max-sm:fixed max-sm:right-3 text-mute-beige hover:opacity-80 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mute-beige">
                   <span className="sr-only">Open main menu</span>
@@ -38,7 +34,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 fixed items-center w-full p-10 sm:items-stretch sm:justify-between">
+              <div className="flex flex-1 fixed items-center z-50 w-full p-10 sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <div className="">
                     <NavLink
@@ -50,7 +46,7 @@ export default function Navbar() {
                   </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 z-50">
                     {navigation.map((item) => (
                       <NavLink
                         key={item.name}
@@ -60,7 +56,7 @@ export default function Navbar() {
                             isActive
                               ? "!text-amber-500"
                               : " text-mute-beige opacity-30"
-                          } px-1 pt-1 text-lg font-light hover:opacity-100  hover:duration-200 hover:ease-in-out`
+                          } px-1 pt-1 text-lg font-light hover:opacity-100  hover:duration-200 hover:ease-in-out z-50`
                         }
                       >
                         {item.name}

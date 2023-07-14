@@ -6,14 +6,14 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects"
 // import Contact from "../pages/Contact"
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import SocialLinks from "./SocialLinks";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
   return (
     <AnimatePresence>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
