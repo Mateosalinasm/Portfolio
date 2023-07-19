@@ -49,19 +49,6 @@ html {
   height: 100vh;
 }
 
-#second {
-  background-color: red;
-}
-
-#smallBox {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 240px;
-  height: 135px;
-  background-color: yellow;
-}
 
 @font-face {
   font-family: "AvantLight";   /*Can be any text*/
@@ -73,22 +60,6 @@ html {
     font-family: 'Aspekta-50';
     src: local('Aspekta-50'),
         url('./fonts/Aspekta-50.otf') format('otf');
-}
-
-.spotlight {
-  position: absolute;
-  width: 0;
-  height: 0;
-  background-color: yellow;
-  border-radius: 50%;
-  transition: width 400ms, color 400ms;
-  pointer-events: none;
-}
-
-.spotlight.active {
-  width: 15vw;
-  height: 15vw;
-  color: #1C1C1C;
 }
 
 .embla {

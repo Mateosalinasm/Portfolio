@@ -25,7 +25,6 @@ const navigation = [
 ];
 
 function Navbar({ navRef, navigation }) {
-  // const [isActive, setIsActive] = useState(navigation[0].href);
   useEffect(() => {
     if (navRef.current) {
       const navigation = navRef.current;
@@ -58,11 +57,6 @@ function Navbar({ navRef, navigation }) {
               sectionTop + sectionHeight - windowHeight / 2 > scrollTop
             ) {
               navigationMatch.classList.add("active-section");
-              // if (sectionName === navigationMatch) {
-              //   setIsSection4Active(true);
-              // } else {
-              //   setIsSection4Active(false);
-              // }
             } else {
               navigationMatch.classList.remove("active-section");
             }
@@ -103,7 +97,7 @@ function Navbar({ navRef, navigation }) {
             <div className="relative flex h-16 items-center justify-between ">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 max-sm:fixed max-sm:right-3 text-mute-beige hover:opacity-80 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mute-beige">
+                <Disclosure.Button className="inline-flex items-center z-40 justify-center rounded-md p-2 max-sm:fixed max-sm:right-3 text-mute-beige hover:opacity-80 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-mute-beige">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -151,8 +145,6 @@ function Navbar({ navRef, navigation }) {
       px-1 pt-1 text-lg font-light text-mute-beige
 hover:opacity-100 hover:duration-200 hover:ease-in-out`}
                 >
-                  <span className="rect nav-style"></span>
-                  <span className="circle nav-style"></span>
                   {item.name}
                 </a>
               ))}
@@ -183,7 +175,7 @@ const Home = () => {
       <section id="home" className=" h-screen  content-section">
         <div
           id="hero-text"
-          className="flex-col flex justify-center -mt-24 h-screen"
+          className="flex-col flex justify-center -mt-24 h-screen "
         >
           <div className="text-mute-beige tracking-tighter text-5xl justify-center flex flex-col items-center px-24 -z-10">
             <div className="max-sm:leading-12">
