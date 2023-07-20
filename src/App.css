@@ -13,15 +13,22 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
   pointer-events: none;
 }
 
 .vignette {
-  background-image: radial-gradient(ellipse at center, rgba(30, 45, 47, 0.8) 50%, rgba(0, 0, 0, 0.8) 100%);
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(30, 45, 47, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
   pointer-events: none;
 }
-
 
 .transtion-container {
   position: relative;
@@ -31,13 +38,12 @@ html {
 }
 
 .transition-content {
-  position:absolute;
+  position: absolute;
   width: 100%;
   height: 100%;
   transform: translateY(100%);
   transition: transform 1s ease-in-out;
 }
-
 
 .main {
   width: 100%;
@@ -49,17 +55,15 @@ html {
   height: 100vh;
 }
 
-
 @font-face {
-  font-family: "AvantLight";   /*Can be any text*/
+  font-family: "AvantLight"; /*Can be any text*/
   src: local("ITC Avant Garde Gothic Std Extra Light Condensed"),
     url("./font/ITCAvantGardeStd-XLtCn.otf") format("otf");
 }
 
 @font-face {
-    font-family: 'Aspekta-50';
-    src: local('Aspekta-50'),
-        url('./fonts/Aspekta-50.otf') format('otf');
+  font-family: "Aspekta-50";
+  src: local("Aspekta-50"), url("./fonts/Aspekta-50.otf") format("otf");
 }
 
 .embla {
@@ -73,4 +77,14 @@ html {
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+}
+
+@media screen and (max-width: 639px) {
+  .vertical {
+    writing-mode: vertical-lr;
+  }
+  .left {
+    position: relative;
+    right: -1.5rem;
+  }
 }

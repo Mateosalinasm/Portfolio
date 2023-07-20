@@ -2,7 +2,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className=" flex justify-center  mb-20">
+    <div className=" flex justify-center mb-20">
       <div className="max-w-6xl flex flex-col w-[72rem] justify-start ml-48  mx-24 max-sm:ml-24">
         <p
           id="about"
