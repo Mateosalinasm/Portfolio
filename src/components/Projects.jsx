@@ -39,7 +39,7 @@ const Projects = () => {
       github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
     },
   ];
-
+//Test
   return (
     <div className="flex justify-center mb-20 ">
       <div className="max-w-6xl z-10 flex flex-col w-[72rem] ml-48 items-center mx-24 max-sm:ml-24">
