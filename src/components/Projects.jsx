@@ -10,7 +10,7 @@ const Projects = () => {
       name: "DWELLO",
       src: "public/images/projects/Dwello/dwello 1.png",
       description:
-        "This travel app was created using the MERN stack and it was designed for travelers to find unique accommodations worldwide. It provides a user-friendly platform were users can book accommodations from a diverse selection of options, including private islands, mountain lofts, treehouses, and more.",
+        "This travel app was created using the MERN stack and Tailwind. Designed for wanderers seeking something beyond the ordinary, Dwello offers a one-of-a-kind experience in accommodations worldwide. It provides a user-friendly platform were users can book accommodations from a diverse selection of options, including private islands, mountain lofts, treehouses, and more.",
       live: "https://dwello.vercel.app/",
       github: "https://github.com/Mateosalinasm/Dwello-Frontend",
     },
@@ -18,24 +18,24 @@ const Projects = () => {
       name: "FITLOGIC",
       src: "public/images/projects/Fitlogic/fitlogic-home.png",
       description:
-        "This fitness app was developed using the MERN stack, is designed to assist users in achieving their fitness goals. With a focus on promoting a healthy lifestyle, it offers a variety of features. Users are not only able to create and customize their workouts, but they can also access helpful healthy tips as well.",
+        "This fitness app, developed as a group project using the MERN stack, aims to help users achieve their fitness goals by offering a variety of features like creating customizable workouts and have access to lots of healthy tips for their fitness journey. I was in charge of the UI design and creation of content, while the other two team members handled CRUD operations and backend logic.",
       live: "https://fitlogic.netlify.app/",
       github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
     },
     {
       name: "LEAFLIST",
-      src: "public/images/projects/Fitlogic/fitlogic-home.png",
+      src: "public/images/projects/Leaflist/Leaflist Demo Image.png",
       description:
-        "This fitness app was developed using the MERN stack, is designed to assist users in achieving their fitness goals. With a focus on promoting a healthy lifestyle, it offers a variety of features. Users are not only able to create and customize their workouts, but they can also access helpful healthy tips as well.",
-      live: "https://fitlogic.netlify.app/",
+        "I developed a comprehensive full-stack web application with the purpose of assisting users in managing their daily tasks efficiently. Users can create, edit, mark tasks as complete, and delete them. Built with Node.js, Mongoose, Express, Tailwind, and EJS using the MVC structure. Includes task and user models with RESTful routes.",
+      live: "public/images/projects/Leaflist/compressed leaf again.mp4",
       github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
     },
     {
-      name: "FITLOGIC",
-      src: "public/images/projects/Fitlogic/fitlogic-home.png",
+      name: "WILD JUNGLE ESCAPE",
+      src: "public/images/projects/Wild Jungle Escape/Game Image.png",
       description:
-        "This fitness app was developed using the MERN stack, is designed to assist users in achieving their fitness goals. With a focus on promoting a healthy lifestyle, it offers a variety of features. Users are not only able to create and customize their workouts, but they can also access helpful healthy tips as well.",
-      live: "https://fitlogic.netlify.app/",
+        "My first project was this 2D scroll game I created using HTML, Vanilla CSS, and JavaScript. I also learned a little bit of canvas animations to make it more fluid along with some sound effects. I was inspired by the classic Mario-style gameplay. The ultimate goal is to dodge that sneaky enemy mushroom with perfect timing and aim for a high score that'll blow everyone away!",
+      live: "public/images/projects/Wild Jungle Escape/compressed jungle again.mp4",
       github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
     },
   ];
@@ -56,7 +56,7 @@ const Projects = () => {
             <div className="flex justify-center max-sm:gap-2 -z-10 gap-y-4 max-sm:gap-y-6 flex-wrap">
               <div className="embla rounded-2xl">
                 <Carousel
-                  className=" w-[50rem] h-[44rem] max-sm:w-[26rem] max-sm:h-[38rem]"
+                  className=" w-[50rem] h-[47rem] max-sm:w-[26rem] max-sm:h-[38rem]"
                   withIndicators
                   withControls={false}
                   styles={{
