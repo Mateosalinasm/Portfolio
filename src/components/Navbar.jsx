@@ -1,12 +1,10 @@
-
-import React, {  useEffect } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import { Disclosure } from "@headlessui/react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -16,7 +14,7 @@ const navigation = [
   { name: "Contact", href: "#contact" },
 ];
 
-function Navbar({ navRef}) {
+function Navbar({ navRef }) {
   useEffect(() => {
     if (navRef.current) {
       const navigation = navRef.current;
@@ -86,13 +84,21 @@ function Navbar({ navRef}) {
             transition={{ delay: 4.5, duration: 0.9 }}
             className="mx-auto px-2 sm:px-2"
           >
-            <div className="relative flex h-16 items-center ">
-              <div className="flex flex-1 fixed items-stretch w-screen justify-between  bg-[#1C1C1C] py-[1.05rem] px-10 bg-opacity-70 max-sm:bg-opacity-0 z-20 sm:items-stretch sm:justify-between">
+            <div className="relative flex h-16 items-center">
+              <div className="fixed max-sm:bg-[#1C1C1C] max-sm:bg-opacity-70 w-screen z-50 h-[2.5rem] top-0 flex items-center">
+                <Link
+                  to="#home"
+                  className="text-mute-beige text-xl hover:text-mute-beige tracking-wide font-light max-sm:text-base hidden relative max-sm:block pl-2"
+                >
+                  Mateo
+                </Link>
+              </div>
+              <div className="flex flex-1 fixed items-stretch w-screen justify-between bg-[#1C1C1C] py-[1.05rem] px-10 bg-opacity-70 max-sm:bg-opacity-0 z-20 sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center ">
                   <div className="">
                     <Link
                       to="#home"
-                      className="text-mute-beige text-xl hover:text-mute-beige tracking-wide font-light max-sm:text-base max-sm:-left-8 relative "
+                      className="text-mute-beige text-xl hover:text-mute-beige tracking-wide font-light max-sm:text-base max-sm:-left-8 relative max-sm:hidden"
                     >
                       Mateo
                     </Link>
@@ -120,4 +126,4 @@ function Navbar({ navRef}) {
   );
 }
 
-export default Navbar
+export default Navbar;

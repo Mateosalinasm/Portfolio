@@ -42,7 +42,7 @@ function App({navigation}) {
       <section id="home" className=" h-screen  content-section">
         <div
           id="hero-text"
-          className="flex-col flex justify-center -mt-24 h-screen "
+          className="flex-col flex justify-center -mt-20 h-screen "
         >
           <div className="text-mute-beige tracking-tighter text-5xl justify-center flex flex-col items-center px-24 -z-10">
             <div className="max-sm:leading-12">
