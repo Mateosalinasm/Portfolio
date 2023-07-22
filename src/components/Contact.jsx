@@ -101,6 +101,8 @@ const Contact = () => {
             <button
               type="submit"
               className="block w-full rounded-md cursor-pointer bg-mute-beige px-3.5 py-2.5 text-center bg-opacity-70 text-sm font-semibold text-[#1C1C1C] shadow-sm hover:bg-opacity-100 focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-1 focus-visible:outline-mute-beige"
+              onMouseDown={sendEmail}
+              onMouseUp={sendEmail}
             >
               Let's talk
             </button>
