@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { Link } from "react-router-dom";
-import { Carousel } from "@mantine/carousel";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 const Projects = () => {
   const projects = [
     {
@@ -51,29 +52,26 @@ const Projects = () => {
         <div className="font-normal text-mute-beige text-5xl relative selection:leading-16 text-left mb-10">
           <div className="rounded-2xl  w-[65rem] max-sm:w-[26rem]">
             <div className="flex justify-center max-sm:gap-2 -z-10 gap-y-4 max-sm:gap-y-6 flex-wrap">
-              <div className="embla rounded-2xl">
+              <div className="rounded-2xl">
                 <Carousel
-                  className=" w-[50rem] h-[47rem] max-sm:w-[26rem] max-sm:h-[38rem]"
-                  withIndicators
-                  withControls={false}
-                  styles={{
-                    indicator: {
-                      width: "1rem",
-                      height: "1rem",
-                      border: "2px solid #d1c1a7",
-                      transition: "width 250ms ease",
-
-                      "&[data-active]": {
-                        width: "1rem",
-                      },
-                    },
-                  }}
+                  className="w-[53rem] h-[47rem] max-sm:w-[26rem] max-sm:h-[38rem]"
+                  showStatus={false}
+                  showArrows={false}
+                  emulateTouch={true}
+                  showIndicators={true}
+                  infiniteLoop={true}
+                  centerMode={false}
+                  autoPlay={true}
+                  interval={6000}
+                  transitionTime={400}
+                  swipeable={true}
+                  stopOnHover={true}
                 >
                   {projects.map((project, index) => (
                     <div key={index} className="rounded-2xl">
-                      <div className="w-[50rem] mx-5 max-sm:w-[26rem] max-sm:pt-6">
+                      <div className="w-[50rem] mx-5 max-sm:w-[24rem] max-sm:pt-6 mb-[4rem] max-sm:mb-[4.5rem]">
                         <img src={project.src} alt="" className="rounded-2xl" />
-                        <div className="flex justify-between  mt-2 mb-4">
+                        <div className="flex justify-between mt-2 mb-4">
                           <h1 className="text-xl font-bold p-2 relative -left-2 max-sm:-left-0 max-sm:text-sm">
                             {project.name}
                           </h1>
@@ -102,7 +100,7 @@ const Projects = () => {
                           </div>
                         </div>
                         <div>
-                          <p className="text-xl max-sm:text-base">
+                          <p className="text-xl max-sm:text-base text-left leading-8 max-sm:left-2 relative max-sm:leading-7">
                             {project.description}
                           </p>
                         </div>

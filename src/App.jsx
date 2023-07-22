@@ -1,4 +1,3 @@
-
 import "./App.css";
 let hasLogged = false;
 import React, { useState, useEffect, useRef, useLayoutEffect } from "react";
@@ -11,6 +10,7 @@ import Contact from "./components/Contact";
 import Languages from "./components/Languages";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import SocialLinks from "./components/SocialLinks";
 
 
 function App({navigation}) {
@@ -81,6 +81,7 @@ function App({navigation}) {
       <section id="contact" className=" pt-60 content-section">
         <Contact />
       </section>
+      <SocialLinks />
     </div>
   );
 }
