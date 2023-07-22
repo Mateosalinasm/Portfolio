@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="max-w-6xl z-10 flex flex-col w-[72rem] ml-48 items-center mx-24 max-sm:ml-24">
         <p
           id="about"
-          className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs max-sm:left-5"
+          className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs max-sm:left-5 max-sm:mb-0"
 
           // className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.3em] mb-6 max-sm:text-xxs max-sm:mb-1"
         >
@@ -62,7 +62,7 @@ const Projects = () => {
                   showIndicators={true}
                   infiniteLoop={true}
                   centerMode={false}
-                  autoPlay={true}
+                  autoPlay={false}
                   interval={6000}
                   transitionTime={400}
                   swipeable={true}

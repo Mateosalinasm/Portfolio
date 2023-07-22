@@ -59,7 +59,7 @@ function App({navigation}) {
                   </h1>
                 </div>
 
-                <h1 className="max-w-2xl font-normal text-8xl leading-24 text-left meets max-sm:text-[2.9rem] max-sm:leading-1 max-sm:-mt-0">
+                <h1 className="max-w-2xl font-normal text-8xl leading-24 text-left meets max-sm:text-[2.9rem] max-sm:leading-1 max-sm:-mt-0 max-[490px]:text-[2.7rem]">
                   MEETS CODE
                 </h1>
               </div>
@@ -70,7 +70,10 @@ function App({navigation}) {
       <section id="about" className=" pt-60 content-section">
         <About />
       </section>
-      <section id="skills" className=" pt-60 content-section">
+      <section
+        id="skills"
+        className=" pt-60 max-sm:pt-[2.5rem] content-section"
+      >
         <Skills />
         <Languages />
       </section>
