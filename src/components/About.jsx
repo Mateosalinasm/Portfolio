@@ -61,7 +61,7 @@ const About = () => {
         >
           ABOUT ME
         </p>
-        <div className="text-6xl max-w-7xl leading-16 text-left max-md:text-2xl max-lg:text-3xl max-lg:leading-12 max-md:leading-10 mb-10 text-to-animate max-sm:text-[1.6rem] max-sm:leading-10 max-sm:-mt-0">
+        <div className="text-6xl max-w-6xl max-sm:w-[23rem] leading-16 text-left max-md:text-2xl max-lg:text-3xl max-lg:leading-12 max-md:leading-10 mb-10 text-to-animate max-sm:text-[1.6rem] max-sm:leading-10 max-sm:-mt-0">
           <h1>I'm a passionate </h1>
           <h1 className="text-amber-500">frontend developer</h1>
           <h1>
