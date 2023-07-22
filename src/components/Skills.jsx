@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <div className=" flex justify-center mb-20">
-      <div className="max-w-6xl flex flex-col w-[72rem] justify-start ml-48  mx-24 max-sm:ml-24">
+      <div className="max-w-6xl flex flex-col w-[80rem] justify-start ml-48  mx-24 max-sm:ml-24">
         <p
           id="about"
           className="text-mute-beige relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs"
@@ -11,7 +11,7 @@ const Skills = () => {
           SKILLS
         </p>
         <div className="font-extrabold text-5xl relative -left-2 -z-10  selection:leading-16 text-left mb-10">
-          <div className="flex gap-8 max-sm:gap-2 max-sm:gap-y-6 flex-wrap max-sm:gap-x-[1.40rem]">
+          <div className="max-sm:w-[25rem] flex gap-8 max-sm:gap-2 max-sm:gap-y-6 flex-wrap max-sm:gap-x-[1.40rem]">
             {/* HTML */}
             <div className="text-center flex flex-col justify-center gap-y-4">
               <svg
