@@ -1,30 +1,8 @@
 import React from "react";
 import "./languages.css";
-import { StarIcon, EllipsisHorizontalIcon } from "@heroicons/react/20/solid";
+import { StarIcon } from "@heroicons/react/20/solid";
 const Languages = () => {
-  // const languageElements = document.querySelectorAll(
-  //   ".spanish, .portuguese, .russian"
-  // );
-  // const spotlight = document.createElement("div");
-  // spotlight.classList.add("spotlight");
 
-  // document.addEventListener("mousemove", (e) => {
-  //   spotlight.style.left = `${e.clientX}px`;
-  //   spotlight.style.top = `${e.clientY}px`;
-  // });
-
-  // languageElements.forEach((languageElement) => {
-  //   languageElement.addEventListener("mouseenter", () => {
-  //     spotlight.textContent = languageElement.dataset.english;
-  //     spotlight.classList.add("active");
-  //   });
-
-  //   languageElement.addEventListener("mouseleave", () => {
-  //     spotlight.classList.remove("active");
-  //   });
-  // });
-
-  // document.body.appendChild(spotlight);
 
   return (
     <div className="flex justify-center mb-50">

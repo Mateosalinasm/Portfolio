@@ -51,42 +51,6 @@ const Contact = () => {
           <h1>CONNECT</h1>
         </div>
         <div className="flex flex-col ">
-          {/* <div>
-            <div className="flex justify-start">
-              <h1 className="text-sm font-extrathin tracking-[0.2em]">EMAIL</h1>
-            </div>
-            <p className=" text-sm font-extrathin opacity-50">
-              mateosalinasm.dev@gmail.com
-            </p>
-          </div>
-
-          <div>
-            <div className="flex justify-start">
-              <h1 className="text-sm font-extrathin tracking-[0.2em]">
-                LINKEDIN
-              </h1>
-            </div>
-            <p className=" text-sm font-extrathin opacity-50">
-              linkedin.com/in/mateosalinasm/
-            </p>
-          </div>
-
-          <div>
-            <div className="flex justify-start">
-              <h1 className="text-sm font-extrathin tracking-[0.2em]">
-                GITHUB
-              </h1>
-            </div>
-            <p className=" text-sm font-extrathin opacity-50">
-              github.com/Mateosalinasm
-            </p>
-          </div> */}
-          {/* <label
-            htmlFor="message"
-            className="block text-sm font-thin leading-6 text-mute-beige"
-          >
-            CONTACT ME
-          </label> */}
           <form ref={form} onSubmit={sendEmail} className="z-50 max">
             <div className="sm:col-span-2">
               <label

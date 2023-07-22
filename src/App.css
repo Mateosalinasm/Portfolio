@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .container {
   position: relative;
   display: inline-block;
@@ -87,4 +88,55 @@ html {
     position: relative;
     right: -1.5rem;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.beige {
+  color: #d1c1a7;
+}
+
+.creativity-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.zoom-target {
+  position: relative;
+}
+
+.active-section {
+  color: #04e6ff;
+}
+
+.nav-style {
+  display: inline-block;
+  position: relative;
+  color: #f59e0b;
+}
+
+nav a:hover,
+nav .active-section {
+  color: #f59e0b;
+  cursor: pointer;
+}
+nav a:hover span,
+nav .active-section span {
+  background-color: #f59e0b;
+}
+nav .active-section .rect {
+  width: 40px;
+  mix-blend-mode: difference;
+}
+
+nav a {
+  color: #d1c1a7;
 }
