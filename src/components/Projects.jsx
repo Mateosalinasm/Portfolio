@@ -6,7 +6,7 @@ const Projects = () => {
   const projects = [
     {
       name: "DWELLO",
-      src: "public/images/projects/Dwello/dwello 1.png",
+      src: "/images/projects/Dwello/dwello 1.png",
       description:
         "This travel app was created using the MERN stack and Tailwind. Designed for wanderers seeking something beyond the ordinary, Dwello offers a one-of-a-kind experience in accommodations worldwide. It provides a user-friendly platform were users can book accommodations from a diverse selection of options, including private islands, mountain lofts, treehouses, and more.",
       live: "https://dwello.vercel.app/",
@@ -14,7 +14,7 @@ const Projects = () => {
     },
     {
       name: "FITLOGIC",
-      src: "public/images/projects/Fitlogic/fitlogic-home.png",
+      src: "/images/projects/Fitlogic/fitlogic-home.png",
       description:
         "This fitness app, developed as a group project using the MERN stack, aims to help users achieve their fitness goals by offering a variety of features like creating customizable workouts and have access to lots of healthy tips for their fitness journey. I was in charge of the UI design and creation of content, while the other two team members handled CRUD operations and backend logic.",
       live: "https://fitlogic.netlify.app/",
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       name: "LEAFLIST",
-      src: "public/images/projects/Leaflist/Leaflist Demo Image.png",
+      src: "/images/projects/Leaflist/Leaflist Demo Image.png",
       description:
         "I developed a comprehensive full-stack web application with the purpose of assisting users in managing their daily tasks efficiently. Users can create, edit, mark tasks as complete, and delete them. Built with Node.js, Mongoose, Express, Tailwind, and EJS using the MVC structure. Includes task and user models with RESTful routes.",
       live: "public/images/projects/Leaflist/compressed leaf again.mp4",
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       name: "WILD JUNGLE ESCAPE",
-      src: "public/images/projects/Wild Jungle Escape/Game Image.png",
+      src: "/images/projects/Wild Jungle Escape/Game Image.png",
       description:
         "My first project was this 2D scroll game I created using HTML, Vanilla CSS, and JavaScript. I also learned a little bit of canvas animations to make it more fluid along with some sound effects. I was inspired by the classic Mario-style gameplay. The ultimate goal is to dodge that sneaky enemy mushroom with perfect timing and aim for a high score that'll blow everyone away!",
       live: "public/images/projects/Wild Jungle Escape/compressed jungle again.mp4",
