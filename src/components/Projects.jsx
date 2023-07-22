@@ -1,9 +1,6 @@
 import React, { useCallback } from "react";
 import { Link } from "react-router-dom";
-import { Tab } from "@headlessui/react";
-import { motion } from "framer-motion";
 import { Carousel } from "@mantine/carousel";
-
 const Projects = () => {
   const projects = [
     {
