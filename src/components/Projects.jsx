@@ -55,6 +55,7 @@ const Projects = () => {
               <div className="rounded-2xl">
                 <Carousel
                   className="w-[53rem] h-[47rem] max-sm:w-[26rem] max-sm:h-[38rem]"
+                  showThumbs={true}
                   showStatus={false}
                   showArrows={false}
                   emulateTouch={true}
