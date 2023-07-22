@@ -51,7 +51,7 @@ const Contact = () => {
           <h1>CONNECT</h1>
         </div>
         <div className="flex flex-col ">
-          <form ref={form} onSubmit={sendEmail} className="z-50 max">
+          <form ref={form} className="z-50 max">
             <div className="sm:col-span-2">
               <label
                 htmlFor="name"
