@@ -13,7 +13,7 @@ const Languages = () => {
         >
           LANGUAGES
         </p>
-        <div className="font-normal text-mute-beige text-5xl relative selection:leading-16 text-left mb-10 max-sm:w-[24.5rem]">
+        <div className="font-normal text-mute-beige text-5xl relative selection:leading-16 text-left mb-10 max-sm:w-[19.5rem]">
           <div className="flex gap-x-40 md:gap-x-32 max-sm:gap-2 max-sm:gap-y-6 flex-wrap">
             <div className="language-wrapper md:mb-10 sm:mb-10 max-sm:-mb-5">
               <div className="spanish text-completed w-54 wrapper -mb-4 max-sm:text-2xl "></div>

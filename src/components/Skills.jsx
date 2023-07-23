@@ -11,7 +11,7 @@ const Skills = () => {
           SKILLS
         </p>
         <div className="font-extrabold text-5xl relative -left-2 -z-10  selection:leading-16 text-left mb-10">
-          <div className="max-sm:w-[25rem] flex gap-8 max-sm:gap-2 max-sm:gap-y-6 flex-wrap max-sm:gap-x-[1.40rem]">
+          <div className="max-sm:w-[20rem] flex gap-8 max-sm:gap-2 max-sm:gap-y-6 flex-wrap max-sm:gap-x-[1.40rem]">
             {/* HTML */}
             <div className="text-center flex flex-col justify-center gap-y-4">
               <svg
