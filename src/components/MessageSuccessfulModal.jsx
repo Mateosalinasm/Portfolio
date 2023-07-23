@@ -29,7 +29,7 @@ export default function MessageSuccessfulModal({ showBookingModal, onClose }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-[#1C1C1C] bg-opacity-70 border border-mute-beige px-4  py-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm sm:p-6">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-[#1C1C1C] bg-opacity-70 border border-mute-beige px-4  py-5 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-sm max-sm:w-[18rem] sm:p-6">
                 <div>
                   <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-mute-beige">
                     <CheckIcon
@@ -46,8 +46,8 @@ export default function MessageSuccessfulModal({ showBookingModal, onClose }) {
                     </Dialog.Title>
                     <div className="mt-2">
                       <p className="text-sm text-beige">
-                        Thank you for your message, I'll get in touch with you
-                        soon
+                        Thank you for your message, I'll get in touch with you 
+                        soon!
                       </p>
                     </div>
                   </div>
