@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="name"
-                className="block text-sm font-normal leading-6 text-mute-beige"
+                className="block text-sm font-normal leading-6 text-mute-beige -z-10"
               >
                 Name
               </label>
@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-normal leading-6 text-mute-beige"
+                className="block text-sm font-normal leading-6 text-mute-beige -z-10"
               >
                 Email
               </label>
@@ -86,7 +86,7 @@ const Contact = () => {
             </div>
             <label
               htmlFor="message"
-              className="block text-sm font-normal leading-6 text-mute-beige"
+              className="block text-sm font-normal leading-6 text-mute-beige -z-10"
             >
               Message
             </label>
