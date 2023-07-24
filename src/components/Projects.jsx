@@ -26,7 +26,7 @@ const Projects = () => {
       description:
         "I developed a comprehensive full-stack web application with the purpose of assisting users in managing their daily tasks efficiently. Users can create, edit, mark tasks as complete, and delete them. Built with Node.js, Mongoose, Express, Tailwind, and EJS using the MVC structure. Includes task and user models with RESTful routes.",
       live: "/images/projects/Leaflist/compressed leaf again.mp4",
-      github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
+      github: "https://github.com/Mateosalinasm/Leaflist",
     },
     {
       name: "WILD JUNGLE ESCAPE",
@@ -34,7 +34,7 @@ const Projects = () => {
       description:
         "My first project was this 2D scroll game I created using HTML, Vanilla CSS, and JavaScript. I also learned a little bit of canvas animations to make it more fluid along with some sound effects. I was inspired by the classic Mario-style gameplay. The ultimate goal is to dodge that sneaky enemy mushroom with perfect timing and aim for a high score that'll blow everyone away!",
       live: "/images/projects/Wild Jungle Escape/compressed jungle again.mp4",
-      github: "https://github.com/Mateosalinasm/Fitlogic-Frontend",
+      github: "https://github.com/Mateosalinasm/Wild-Jungle-Escape",
     },
   ];
 //Test

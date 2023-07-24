@@ -85,7 +85,7 @@ function Navbar({ navRef }) {
             className="mx-auto px-2 sm:px-2"
           >
             <div className="relative flex h-16 items-center">
-              <div className="fixed max-sm:bg-[#1C1C1C] max-sm:bg-opacity-70 w-screen z-50 h-[2.5rem] top-0 flex items-center">
+              <div className="fixed max-sm:bg-[#1C1C1C] max-sm:bg-opacity-70 w-screen z-20 h-[2.5rem] top-0 flex items-center">
                 <Link
                   to="#home"
                   className="text-mute-beige text-xl hover:text-mute-beige tracking-wide font-light max-sm:text-base hidden relative max-sm:block pl-2"
