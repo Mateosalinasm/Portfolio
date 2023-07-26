@@ -54,10 +54,10 @@ const Projects = () => {
             <div className="flex justify-center max-sm:gap-2 -z-10 gap-y-4 max-sm:gap-y-6 flex-wrap">
               <div className="rounded-2xl">
                 <Carousel
-                  className="w-[53rem] h-[47rem] max-sm:w-[23rem] max-[550px]:w-[19rem] max-sm:h-[38rem]"
+                  className="w-[53rem] h-[47rem] max-sm:w-[22.5rem] max-[390px]:w-[19rem] max-sm:h-[38rem] "
                   showThumbs={false}
                   showStatus={false}
-                  showArrows={false}
+                  showArrows={true}
                   emulateTouch={true}
                   showIndicators={true}
                   infiniteLoop={true}
@@ -70,7 +70,7 @@ const Projects = () => {
                 >
                   {projects.map((project, index) => (
                     <div key={index} className="rounded-2xl">
-                      <div className="w-[50rem] mx-5 max-sm:w-[21rem] max-[550px]:w-[17rem] max-sm:pt-6 mb-[4rem] max-sm:mb-[4.5rem]">
+                      <div className="w-[50rem] mx-5 max-sm:w-[20rem] max-[390px]:w-[17rem] max-sm:pt-6 mb-[4rem] max-sm:mb-[4.5rem]">
                         <img src={project.src} alt="" className="rounded-2xl" />
                         <div className="flex justify-between mt-2 mb-4">
                           <h1 className="text-xl font-bold p-2 relative -left-2 max-sm:-left-0 max-sm:text-sm">
