@@ -43,7 +43,7 @@ const Projects = () => {
       <div className="max-w-6xl z-10 flex flex-col w-[72rem] ml-48 items-center mx-24 max-sm:ml-24">
         <p
           id="about"
-          className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs max-sm:left-[3.2rem] max-sm:mb-0"
+          className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.4em] mb-6 max-sm:text-xxs max-sm:left-[3.7rem] max-sm:mb-0"
 
           // className="text-mute-beige self-start relative text-sm font-extralight tracking-[0.3em] mb-6 max-sm:text-xxs max-sm:mb-1"
         >
@@ -55,7 +55,7 @@ const Projects = () => {
               <div className="rounded-2xl">
                 <Carousel
                   className="w-[53rem] h-[47rem] max-sm:w-[23rem] max-[550px]:w-[19rem] max-sm:h-[38rem]"
-                  showThumbs={true}
+                  showThumbs={false}
                   showStatus={false}
                   showArrows={false}
                   emulateTouch={true}

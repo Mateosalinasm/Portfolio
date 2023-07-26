@@ -45,7 +45,7 @@ const Contact = () => {
   }, [showBookingModal]);
 
   return (
-    <div className="text-mute-beige mx-24 max-sm:mb-24 mb-80 justify-center flex ml-48 max-sm:ml-[4rem] max-sm:w-[19rem] max-[550px]:w-[16rem]">
+    <div className="text-mute-beige mx-24 max-sm:mb-24 mb-80 justify-center flex ml-48 max-sm:ml-[4rem] max-sm:w-[19rem] max-[390px]:w-[16rem]">
       <div className="flex flex-col w-[72rem] justify-start max-w-6xl">
         <div className="text-sm mb-6 font-extralight tracking-[0.4em] max-sm:text-xxs">
           <h1>CONNECT</h1>
