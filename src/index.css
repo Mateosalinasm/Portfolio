@@ -5,6 +5,7 @@
 html {
   background-color: #1c1c1c;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -29,4 +30,10 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
   background-color: #1c1c1c;
   display: none;
+}
+
+@media screen and (max-width: 390px) {
+  body {
+    overflow-x: hidden;
+  }
 }
