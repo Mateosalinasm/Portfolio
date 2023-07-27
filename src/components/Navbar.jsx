@@ -93,7 +93,7 @@ function Navbar({ navRef }) {
                   Mateo
                 </Link>
               </div>
-              <div className="flex flex-1 fixed items-stretch w-screen justify-between bg-[#1C1C1C] py-[1.05rem] px-10 bg-opacity-70 max-sm:bg-opacity-0 z-20 sm:items-stretch sm:justify-between">
+              <div className="flex flex-1 fixed items-stretch w-screen justify-between bg-[#1C1C1C] max-sm:h-8 py-[1.05rem] px-10 bg-opacity-70 max-sm:bg-opacity-0 z-20 sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center ">
                   <div className="">
                     <Link
@@ -104,7 +104,7 @@ function Navbar({ navRef }) {
                     </Link>
                   </div>
                 </div>
-                <div className="flex relative max-sm:top-[24rem] left ">
+                <div className="flex relative max-sm:top-[14rem] left ">
                   <div className="flex gap-4 vertical">
                     {navigation.map((item) => (
                       <a

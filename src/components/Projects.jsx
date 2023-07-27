@@ -73,7 +73,7 @@ const Projects = () => {
                       <div className="w-[50rem] mx-5 max-sm:w-[20rem] max-[390px]:w-[17rem] max-sm:pt-6 mb-[4rem] max-sm:mb-[4.5rem]">
                         <img src={project.src} alt="" className="rounded-2xl" />
                         <div className="flex justify-between mt-2 mb-4">
-                          <h1 className="text-xl font-bold p-2 relative -left-2 max-sm:-left-0 max-sm:text-sm">
+                          <h1 className="text-xl font-bold p-2 relative -left-2 max-sm:-left-0 max-sm:text-base">
                             {project.name}
                           </h1>
                           <div className="flex">
