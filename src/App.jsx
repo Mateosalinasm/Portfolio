@@ -59,7 +59,7 @@ function App({navigation}) {
                   </h1>
                 </div>
 
-                <h1 className="max-w-2xl font-normal text-8xl leading-24 text-left meets max-sm:text-[2.9rem] max-sm:leading-1 max-sm:-mt-0 max-[470px]:text-[2.6rem] max-[390px]:text-[2.4rem]">
+                <h1 className="max-w-2xl font-normal text-8xl leading-24 text-left meets max-sm:text-[2.9rem] max-sm:leading-1 max-sm:-mt-0 max-[470px]:text-[2.6rem] max-[389px]:text-[2.4rem]">
                   MEETS CODE
                 </h1>
               </div>
