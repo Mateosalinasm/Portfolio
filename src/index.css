@@ -32,7 +32,7 @@ html::-webkit-scrollbar-track {
   display: none;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 389px) {
   body {
     overflow-x: hidden;
   }
