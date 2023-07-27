@@ -32,7 +32,7 @@ const Projects = () => {
       name: "WILD JUNGLE ESCAPE",
       src: "/images/projects/Wild Jungle Escape/Game Image.png",
       description:
-        "My first project was this 2D scroll game I created using HTML, Vanilla CSS, and JavaScript. I also learned a little bit of canvas animations to make it more fluid along with some sound effects. I was inspired by the classic Mario-style gameplay. The ultimate goal is to dodge that sneaky enemy mushroom with perfect timing and aim for a high score that'll blow everyone away!",
+        "I created this 2D scroll game using HTML, Vanilla CSS, and JavaScript. I also explored canvas animations to make it more fluid along with some sound effects. I was inspired by the classic Mario-style gameplay. The ultimate goal is to dodge that sneaky enemy mushroom with perfect timing and aim for a high score that'll blow everyone away!",
       live: "/images/projects/Wild Jungle Escape/compressed jungle again.mp4",
       github: "https://github.com/Mateosalinasm/Wild-Jungle-Escape",
     },
